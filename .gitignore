@@ -1,0 +1,33 @@
+# Secrets
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Data / models (large files)
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+data/
+results/
+*.jsonl
+*.faiss
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+phase1/*.zip
